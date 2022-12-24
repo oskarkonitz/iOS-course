@@ -35,6 +35,7 @@ class ViewController: UIViewController {
             errorInt()
         }
     }
+    
     @IBAction func minusClicked(_ sender: Any) {
         if let firstNumber = Int(firstText.text!){
             if let secondNumber = Int(secondText.text!){
@@ -47,6 +48,7 @@ class ViewController: UIViewController {
             errorInt()
         }
     }
+    
     @IBAction func divideClicked(_ sender: Any) {
         if secondText.text == "0"{
             resultLabel.text = "Nie dziel przez 0"
@@ -61,6 +63,7 @@ class ViewController: UIViewController {
                 errorInt()
             }
     }
+    
     @IBAction func multiplyClicked(_ sender: Any) {
         if let firstNumber = Int(firstText.text!){
             if let secondNumber = Int(secondText.text!){

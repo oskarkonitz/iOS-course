@@ -16,45 +16,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First number..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TYT-Iv-7va">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First number.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TYT-Iv-7va">
                                 <rect key="frame" x="40" y="109" width="310" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Second number..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pfX-E8-LqF">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Second number.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pfX-E8-LqF">
                                 <rect key="frame" x="40" y="179" width="310" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9B-lJ-vxE">
-                                <rect key="frame" x="71" y="238" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X02-1H-Z2s">
+                                <rect key="frame" x="40" y="307" width="310" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9B-lJ-vxE">
+                                <rect key="frame" x="81" y="238" width="35" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="+"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3P-Gv-whG">
-                                <rect key="frame" x="202" y="238" width="29" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3P-Gv-whG">
+                                <rect key="frame" x="212" y="238" width="29" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="/"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPS-3G-ta4">
-                                <rect key="frame" x="267" y="238" width="32" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPS-3G-ta4">
+                                <rect key="frame" x="277" y="238" width="32" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="*"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcW-m2-7hI">
-                                <rect key="frame" x="137" y="238" width="32" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcW-m2-7hI">
+                                <rect key="frame" x="147" y="238" width="32" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="-"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="j9B-lJ-vxE" firstAttribute="baseline" secondItem="GcW-m2-7hI" secondAttribute="baseline" id="7oY-MG-0Ce"/>
+                            <constraint firstItem="TYT-Iv-7va" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="BMQ-bj-JlI"/>
+                            <constraint firstItem="TYT-Iv-7va" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="DKb-g5-iV7"/>
+                            <constraint firstItem="pfX-E8-LqF" firstAttribute="top" secondItem="TYT-Iv-7va" secondAttribute="bottom" constant="36" id="Dk3-gV-U7g"/>
+                            <constraint firstItem="pfX-E8-LqF" firstAttribute="leading" secondItem="X02-1H-Z2s" secondAttribute="leading" id="EKl-JS-jvv"/>
+                            <constraint firstItem="TYT-Iv-7va" firstAttribute="leading" secondItem="pfX-E8-LqF" secondAttribute="leading" id="Gom-zB-X4t"/>
+                            <constraint firstItem="NPS-3G-ta4" firstAttribute="leading" secondItem="N3P-Gv-whG" secondAttribute="trailing" constant="36" id="LPL-yf-w9a"/>
+                            <constraint firstItem="j9B-lJ-vxE" firstAttribute="top" secondItem="pfX-E8-LqF" secondAttribute="bottom" constant="25" id="N7G-3y-Omp"/>
+                            <constraint firstItem="pfX-E8-LqF" firstAttribute="trailing" secondItem="X02-1H-Z2s" secondAttribute="trailing" id="Xpd-2P-JSn"/>
+                            <constraint firstItem="X02-1H-Z2s" firstAttribute="top" secondItem="j9B-lJ-vxE" secondAttribute="bottom" constant="34" id="eXc-kk-60r"/>
+                            <constraint firstItem="GcW-m2-7hI" firstAttribute="baseline" secondItem="N3P-Gv-whG" secondAttribute="baseline" id="ga7-3J-nz0"/>
+                            <constraint firstItem="N3P-Gv-whG" firstAttribute="baseline" secondItem="NPS-3G-ta4" secondAttribute="baseline" id="hm3-Cg-Voi"/>
+                            <constraint firstItem="N3P-Gv-whG" firstAttribute="leading" secondItem="GcW-m2-7hI" secondAttribute="trailing" constant="33" id="lTW-8m-EVT"/>
+                            <constraint firstItem="TYT-Iv-7va" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qla-1h-1bk"/>
+                            <constraint firstItem="j9B-lJ-vxE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="rPQ-aZ-XVq"/>
+                            <constraint firstItem="TYT-Iv-7va" firstAttribute="trailing" secondItem="pfX-E8-LqF" secondAttribute="trailing" id="wbE-6D-8pE"/>
+                            <constraint firstItem="GcW-m2-7hI" firstAttribute="leading" secondItem="j9B-lJ-vxE" secondAttribute="trailing" constant="31" id="zkv-dU-TJl"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

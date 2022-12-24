@@ -17,6 +17,12 @@ class ViewController: UIViewController {
         resultLabel.text = "Nie wpisuj liter, tylko liczby."
     }
     
+    func errorWp(){
+        if firstText.text == "" || secondText.text == ""{     //DOKOŃCZYĆ!!!!
+            resultLabel.text = "Najpierw wpisz liczby."
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +30,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sumButtonClicked(_ sender: Any) {
+        errorWp()
         if let firstNumber = Int(firstText.text!){
             if let secondNumber = Int(secondText.text!){
                 let result = firstNumber + secondNumber

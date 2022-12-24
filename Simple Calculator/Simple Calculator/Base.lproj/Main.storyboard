@@ -36,21 +36,33 @@
                                 <rect key="frame" x="81" y="238" width="35" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="+"/>
+                                <connections>
+                                    <action selector="sumButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3uE-jq-NR0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3P-Gv-whG">
                                 <rect key="frame" x="212" y="238" width="29" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="/"/>
+                                <connections>
+                                    <action selector="divideClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NCM-6K-Jwh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPS-3G-ta4">
                                 <rect key="frame" x="277" y="238" width="32" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="*"/>
+                                <connections>
+                                    <action selector="multiplyClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1BY-4G-9yC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcW-m2-7hI">
                                 <rect key="frame" x="147" y="238" width="32" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="-"/>
+                                <connections>
+                                    <action selector="minusClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tVE-7e-osG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -75,6 +87,11 @@
                             <constraint firstItem="GcW-m2-7hI" firstAttribute="leading" secondItem="j9B-lJ-vxE" secondAttribute="trailing" constant="31" id="zkv-dU-TJl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstText" destination="TYT-Iv-7va" id="iOc-KQ-1Y2"/>
+                        <outlet property="resultLabel" destination="X02-1H-Z2s" id="0r5-Od-CCR"/>
+                        <outlet property="secondText" destination="pfX-E8-LqF" id="02t-Rr-dIe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
